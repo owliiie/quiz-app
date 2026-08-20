@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    background-image:url(assets/rain.gif) ;
+    background-repeat: repeat;
+}
+.app{
+    background-color: transparent;
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px;
+    color: #fff ;
+    font-weight: 600 ;
+    border-bottom: 1px solid #fff ;
+    padding-bottom: 30px;
+}
+.quiz {
+    padding: 20px 0;
+  
+}
+.quiz h2 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+  
+}
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100% ;
+    border: 2px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    opacity: 0.8;
+    
+}
+
+.btn:hover {
+    background: #926638;
+    color: #fff;
+}
+
+#next-btn{
+    background: #7b9487;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 2px solid #222;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    opacity: 0.9;
+}
